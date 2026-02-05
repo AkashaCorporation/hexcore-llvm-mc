@@ -19,7 +19,7 @@
     "clean": "node-gyp clean",
     "configure": "node-gyp configure",
     "test": "node test/test.js",
-    "prebuild": "prebuildify --napi --strip",
+    "prebuild": "prebuildify --napi --strip --target 22.21.1",
     "prepublishOnly": "npm run build && npm test"
   },
   "keywords": [
@@ -45,15 +45,15 @@
   ],
   "author": "HikariSystem",
   "license": "MIT",
-	"engines": {
-		"vscode": "^1.0.0",
-		"node": ">=18.0.0"
-	},
-	"activationEvents": [],
-	"dependencies": {
-		"node-addon-api": "^7.0.0",
-		"prebuild-install": "^7.1.1"
-	},
+  "engines": {
+    "vscode": "^1.0.0",
+    "node": ">=18.0.0"
+  },
+  "activationEvents": [],
+  "dependencies": {
+    "node-addon-api": "^7.0.0",
+    "prebuild-install": "^7.1.1"
+  },
   "devDependencies": {
     "node-gyp": "^10.0.0",
     "prebuildify": "^6.0.0"
@@ -83,4 +83,3 @@
     ]
   }
 }
-
