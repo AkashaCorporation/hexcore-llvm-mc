@@ -1,6 +1,6 @@
 {
   "name": "hexcore-llvm-mc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LLVM MC-based assembler bindings for Node.js - Part of HikariSystem HexCore",
   "main": "index.js",
   "module": "index.mjs",
